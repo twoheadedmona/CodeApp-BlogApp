@@ -1,0 +1,36 @@
+﻿@using Microsoft.AspNet.Identity
+@if (Request.IsAuthenticated)  
+{
+    using (Html.BeginForm("LogOut", "Users", FormMethod.Post, new { id = "logoutForm", @class = "navbar-right" }))
+    {
+    @Html.AntiForgeryToken()
+
+
+        string name = Context.User.Identity.Name;
+        int firstIndex = name.IndexOf("(");
+        int lastIndex = name.LastIndexOf(")");
+        string id = name.Substring(firstIndex + 1, lastIndex - firstIndex - 1);
+
+    <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+            @Html.ActionLink("Hello " + Context.User.Identity.Name + "!" , "Details", "Users", new { id = id}, null)
+            @*<a href="#" class="dropdown-toggle" data-toggle="dropdown">Hello @Context.User.Identity.Name !</a>
+            <ul>
+                <li><a href="#">My Profile</a></li>
+                <li><a href="/Users/LogOut">Log Out</a></li>
+            </ul>*@
+        </li>
+        <li>
+            
+        </li>
+        <li><a href="javascript:document.getElementById('logoutForm').submit()">Log off</a></li>
+    </ul>
+    }
+}
+else
+{
+    <ul class="nav navbar-nav navbar-right">
+        <li>@Html.ActionLink("Register", "Register", "Users", routeValues: null, htmlAttributes: new { id = "registerLink" })</li>
+        <li>@Html.ActionLink("Log in", "Login", "Users", routeValues: null, htmlAttributes: new { id = "loginLink" })</li>
+    </ul>
+}

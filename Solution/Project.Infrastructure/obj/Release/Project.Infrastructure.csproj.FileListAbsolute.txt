@@ -1,0 +1,15 @@
+C:\Users\monik\Desktop\Project\Solution\Project.Infrastructure\bin\Release\Project.Infrastructure.dll.config
+C:\Users\monik\Desktop\Project\Solution\Project.Infrastructure\bin\Release\Project.Infrastructure.dll
+C:\Users\monik\Desktop\Project\Solution\Project.Infrastructure\bin\Release\Project.Infrastructure.pdb
+C:\Users\monik\Desktop\Project\Solution\Project.Infrastructure\bin\Release\EntityFramework.dll
+C:\Users\monik\Desktop\Project\Solution\Project.Infrastructure\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\monik\Desktop\Project\Solution\Project.Infrastructure\bin\Release\Project.Core.dll
+C:\Users\monik\Desktop\Project\Solution\Project.Infrastructure\bin\Release\Project.Core.pdb
+C:\Users\monik\Desktop\Project\Solution\Project.Infrastructure\bin\Release\EntityFramework.xml
+C:\Users\monik\Desktop\Project\Solution\Project.Infrastructure\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\monik\Desktop\Project\Solution\Project.Infrastructure\obj\Release\Project.Infrastructure.csprojResolveAssemblyReference.cache
+C:\Users\monik\Desktop\Project\Solution\Project.Infrastructure\obj\Release\Project.Infrastructure.Migrations.InitialCreate.resources
+C:\Users\monik\Desktop\Project\Solution\Project.Infrastructure\obj\Release\Project.Infrastructure.Migrations.postmigration.resources
+C:\Users\monik\Desktop\Project\Solution\Project.Infrastructure\obj\Release\Project.Infrastructure.csproj.GenerateResource.Cache
+C:\Users\monik\Desktop\Project\Solution\Project.Infrastructure\obj\Release\Project.Infrastructure.dll
+C:\Users\monik\Desktop\Project\Solution\Project.Infrastructure\obj\Release\Project.Infrastructure.pdb

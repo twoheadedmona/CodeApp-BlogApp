@@ -1,0 +1,42 @@
+﻿@model IEnumerable<Project.Core.Entities.Post>
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<!-- carossel with iamge start here -->
+<div id="myCarousel" class="carousel slide topImageCarousel" data-ride="carousel">
+    <!-- Indicators -->
+    
+    <img id="wideimg" class="img-responsive" src="~/Content/img/welcome.png" alt="Chania">
+</div>
+<!-- carossel with iamge end here -->
+
+    <!-- all recepies start here -->
+    <div class="container-fluid">
+        <div class="row row-recepies">
+            <h1 class="text-center">All recepies</h1>
+
+            <div id="wrapper-recepies">
+                <div id="columns">
+                    @foreach (var post in Model)
+                    {
+                        <div class="recepie" >
+                            <a href="/Posts/Details/@post.ID">
+                                <img class="img-responsive" src="@post.URL" />
+                                <h4 class="image-recepie">@post.Title</h4>
+
+                                <p>
+                                    @post.Description
+                                </p>
+                                </a>
+                        </div>
+                    }
+                   
+
+                </div>
+            </div>
+            <!-- all recepies end here -->
+        </div>
+        </div>
+
+        <!-- all recepies end here -->

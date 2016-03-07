@@ -1,0 +1,245 @@
+/*navbar style start here*/
+.navbar{
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	z-index: 2;
+	border: 0px;
+	border-radius: 0px;
+}
+#wideimg{
+    width:100%;
+}
+.container-for-carosel{
+	margin: 0px;
+	padding: 0px;
+}
+.container-for-recepies{
+	padding: 0px;
+}
+
+.navbar-brand img{
+	height: 25px;
+}
+
+
+
+/*navbar style ned here*/
+
+/*row wihh categories start here*/
+.icons .thumbnail{
+	border: none;
+	box-shadow: none;
+	background-color: white;
+}
+
+.row-categories{
+	/*background:  #EBCA97;*/
+	padding: 50px;
+}
+/*row with categories end here*/
+
+/*body properties*/
+html,body{height:100%;}
+.carousel,.item,.active{height:100%;}
+.carousel-inner{height:100%;}
+.fill{width:100%;height:100%;background-position:center;background-size:cover;}
+/*body fonts end here*/
+
+/*carosel*/
+.carousel{
+	height:;
+	min-height: 10px;
+}
+
+@media(max-width: 1300px){
+}
+
+@media(max-width: 900px){
+}
+
+.imageInCarosel .caption h1{
+}
+
+.thumbnail {
+    border: 1 none;
+    box-shadow: none;
+    margin: 2px;
+    padding: 1px;
+}
+
+.caption h4 {
+	color: #fff;
+	-webkit-font-smoothing: antialiased;
+}
+/*carosel end here*/
+
+/*recepies on home page start here*/
+.mythumbnail{
+	padding: 0px !important;
+	margin: 0px;
+}
+
+#wrapper-recepies {
+	/*max-width: 1100px;*/
+	/*min-width: 800px;*/
+	/*margin: 50px auto;*/
+}
+
+#columns {
+	-webkit-column-count: 1;
+	-webkit-column-gap: 10px;
+	-webkit-column-fill: auto;
+	-moz-column-count: 1;
+	-moz-column-gap: 10px;
+	-moz-column-fill: auto;
+	column-count: 1;
+	column-gap: 15px;
+	column-fill: auto;
+}
+
+@media (min-width: 500px) {
+	#columns {
+		-webkit-column-count: 2;
+		-moz-column-count: 2;
+		column-count: 2;
+	}
+}
+
+@media (min-width: 960px) {
+	#columns {
+		-webkit-column-count: 3;
+		-moz-column-count: 3;
+		column-count: 3;
+	}
+}
+
+@media (min-width: 1100px) {
+	#columns {
+		-webkit-column-count: 4;
+		-moz-column-count: 4;
+		column-count: 4;
+	}
+}
+
+@media (min-width: 1500px) {
+	#columns {
+		-webkit-column-count: 5;
+		-moz-column-count: 5;
+		column-count: 5;
+	}
+}
+
+.recepie {
+	display: inline-block;
+	/*background: #FEFEFE;*/
+	border: 2px solid #FAFAFA;
+	box-shadow: 8px 8px 9px 0px rgba(34, 25, 25, 0.4);
+	/*margin: 0 2px 15px;*/
+	-webkit-column-break-inside: avoid;
+	-moz-column-break-inside: avoid;
+	column-break-inside: avoid;
+	/*padding: 15px;*/
+	padding: 15px;
+	margin: 15px;
+	/*padding-bottom: 5px;*/
+	/*background: -webkit-linear-gradient(45deg, #FFF, #F9F9F9);*/
+	opacity: 1;
+
+	-webkit-transition: all .2s ease;
+	-moz-transition: all .2s ease;
+	-o-transition: all .2s ease;
+	transition: all .2s ease;
+}
+
+.recepie img {
+	/*width: 100%;*/
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 15px;
+	margin-bottom: 5px;
+	height: 100%;
+}
+
+.caption h4{
+    color: gray;
+}
+
+#columns:hover .recepie:not(:hover) {
+	opacity: 0.6;
+}
+/*recepies on home page end here*/
+
+
+/*colors start here*/
+body{
+	/*background-color: #F5FAFA;*/
+	background-color: #F5FAFA;
+}
+
+.navbar{
+	/*background: #af9280;*/
+	background: #E8D0A9;
+}
+.navbar a {
+	color:  white !important;
+}
+
+.navbar-form .form-control{
+}
+
+.row-categories{
+	background-color: white;
+	padding-top: 30px;
+	padding-bottom: 60px;
+}
+
+.row-recent{
+	background-color: #6D929B; 
+}
+
+.row-recepies{
+	/*background-color: #f5f3f4;*/
+	background-color: #B7AFA3;
+	padding-top: 30px;
+}
+
+.recepie{
+	background-color: white;
+}
+
+h1{
+	color:  #6A5A5B;
+}
+/*colors end here*/
+
+.single-recepie-container{
+	padding-top: 100px;
+}
+
+.my-content{
+	padding-top: 100px;
+}
+
+.button-picture{
+	width: 100% !important;
+}
+
+.bottonGroup{
+	float: right;
+}
+
+/*
+*/
+.naslov{
+	padding-bottom: 30px;
+}
+
+.all-recepies-titele{
+	padding: 20px;
+}
+
+.scroll-down-button{
+	margin-left: 50%;
+	font-size: 5em;
+	color: #6A5A5B;
+}

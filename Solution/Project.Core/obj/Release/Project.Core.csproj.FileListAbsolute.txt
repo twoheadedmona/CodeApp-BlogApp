@@ -1,0 +1,10 @@
+C:\Users\monik\Desktop\Project\Solution\Project.Core\bin\Release\Project.Core.dll.config
+C:\Users\monik\Desktop\Project\Solution\Project.Core\bin\Release\Project.Core.dll
+C:\Users\monik\Desktop\Project\Solution\Project.Core\bin\Release\Project.Core.pdb
+C:\Users\monik\Desktop\Project\Solution\Project.Core\bin\Release\EntityFramework.dll
+C:\Users\monik\Desktop\Project\Solution\Project.Core\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\monik\Desktop\Project\Solution\Project.Core\bin\Release\EntityFramework.xml
+C:\Users\monik\Desktop\Project\Solution\Project.Core\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\monik\Desktop\Project\Solution\Project.Core\obj\Release\Project.Core.csprojResolveAssemblyReference.cache
+C:\Users\monik\Desktop\Project\Solution\Project.Core\obj\Release\Project.Core.dll
+C:\Users\monik\Desktop\Project\Solution\Project.Core\obj\Release\Project.Core.pdb

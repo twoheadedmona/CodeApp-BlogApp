@@ -1,0 +1,9 @@
+C:\Users\monik\Desktop\Project\Solution\Project.Core\bin\Debug\Project.Core.dll.config
+C:\Users\monik\Desktop\Project\Solution\Project.Core\bin\Debug\Project.Core.dll
+C:\Users\monik\Desktop\Project\Solution\Project.Core\bin\Debug\Project.Core.pdb
+C:\Users\monik\Desktop\Project\Solution\Project.Core\bin\Debug\EntityFramework.dll
+C:\Users\monik\Desktop\Project\Solution\Project.Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\monik\Desktop\Project\Solution\Project.Core\bin\Debug\EntityFramework.xml
+C:\Users\monik\Desktop\Project\Solution\Project.Core\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\monik\Desktop\Project\Solution\Project.Core\obj\Debug\Project.Core.dll
+C:\Users\monik\Desktop\Project\Solution\Project.Core\obj\Debug\Project.Core.pdb

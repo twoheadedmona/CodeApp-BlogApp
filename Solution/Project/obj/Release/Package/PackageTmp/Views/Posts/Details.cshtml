@@ -1,0 +1,58 @@
+﻿@model Project.Core.Entities.Post
+
+@{
+    ViewBag.Title = "Details";
+}
+
+
+<div>
+    
+    <div class="container-fluid my-content single-recepie-container">
+        <div class="container">
+            <div class="row">
+                <!-- left side start here -->
+                <div class="col-sm-3">
+                    <div class="panel panel-default">
+
+                        <div class="panel-body">
+                            <img class="img-responsive" src="@Html.DisplayFor(model=>model.URL)">
+                            <h4>Name:</h4>
+                            <h5>@Html.DisplayFor(model => model.Title)</h5>
+                            <hr>
+                            <h4>Kitchen</h4>
+                            <h5>@Html.DisplayFor(model=>model.Tags)</h5>
+                            <hr>
+                            <h4>Date Created:</h4>
+                            <h5>@Html.DisplayFor(model => model.DateCreated)</h5>
+                            <hr>
+                            
+                        </div>
+                    </div>
+                </div>
+                <!-- left side end here -->
+                <!-- right third start here -->
+                <div class="col-sm-9">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">Ingrediants:</div>
+                        <div class="panel-body">
+                            <pre>
+                                @Html.DisplayFor(model=>model.Sostojki)
+                            </pre>
+                        </div>
+
+                        <div class="panel-heading">Procedure</div>
+
+                        <div class="panel-body">
+                           
+                                @Html.DisplayFor(model => model.Podgotovka)
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- right third end here -->
+    </div>
+    
+</div>
+

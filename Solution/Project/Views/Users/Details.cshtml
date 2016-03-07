@@ -1,0 +1,68 @@
+﻿@model Project.Core.User
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<!-- profile start here -->
+<div id="profile" class="container-fluid my-content">
+    <div class="container">
+        <div class="row">
+            <!-- left side start here -->
+            <div class="col-sm-3">
+               
+                <div class="thumbnail">
+                    <img class="img-responsive" src="@Html.DisplayFor(model => model.Image)" alt="">
+                    <div class="caption">
+                        @Html.ActionLink("Edit Profile", "Edit", "Users", new { @class = "btn btn-small btn-default button-picture", id =Model.ID}, null)
+                        
+                        <h4>Username</h4>
+                        <h5>@Html.DisplayFor(model => model.Username)</h5>
+                        <hr>
+                        <h4>e-mail:</h4>
+                        <H5>@Html.DisplayNameFor(model => model.Email)</H5>
+                        <hr />
+                        <h4>Recepies Submitted</h4>
+                        <h5>@Html.DisplayFor(model => model.Posts.Count)</h5>
+                        <a href="/Posts/Create" class="btn btn-small btn-default button-picture" role="button">New Post</a>
+
+                    </div>
+
+                    
+                </div>
+            </div>
+            <!-- left side end here -->
+            <!-- right third start here -->
+            <div class="col-sm-9">
+                <div class="panel panel-default">
+                    <div class="panel-heading">My recepies</div>
+
+                    <div class="panel-body">
+                        <div class="row">
+                            @foreach (var post in Model.Posts)
+                            {
+                                <div class="col-sm-6 col-md-4">
+                                    <div class="thumbnail">
+                                        <img src="@post.URL">
+                                        <div class="caption">
+                                            <h4>@post.Title</h4>
+                                            
+                                            <a href="/Posts/Edit/@post.ID" class="btn btn-small btn-default" role="button">Edit</a>
+                                            <a href="/Posts/Delete/@post.ID" class="btn btn small btn-danger" role="button">Delete</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                            
+                          
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- right third end here -->
+    </div>
+</div>
+<!-- profile end here -->
+
+

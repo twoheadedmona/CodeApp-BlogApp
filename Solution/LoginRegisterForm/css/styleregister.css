@@ -1,0 +1,165 @@
+/* CSS RESET */
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CSS RESET END */
+
+body {
+	background-color: #80736c;
+	font-family: 'Lato', sans-serif;
+}
+
+.usericon {
+	margin-top: 8% !important;
+	margin-bottom: -13.5% !important;
+	margin: 0 auto;
+	width: 5%;
+	z-index: 10;
+}
+
+.usericon img {
+	width: 100%;
+}
+
+.container {
+	width: 11.3%;
+	margin: 0 auto;
+	margin-top: 10% !important;
+	background-color: white;
+	padding: 2% 2.5% 2% 2%;
+	border-radius: 5px;
+}
+
+.inputfields label {
+	margin-left: 27%;
+	font-size: 0.5em;
+	font-family: 'Lato', sans-serif;
+	color: #333333;
+}
+
+::-webkit-input-placeholder {
+   text-align: center;
+   font-family: 'Lato', sans-serif;
+   font-size: 0.9em;
+   color: #333333;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;
+   font-family: 'Lato', sans-serif;
+   font-size: 0.9em;
+   color: #333333;
+
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;
+   font-family: 'Lato', sans-serif;
+   font-size: 0.9em;
+   color: #333333;
+}
+
+:-ms-input-placeholder {  
+   text-align: center;
+   font-family: 'Lato', sans-serif;
+   font-size: 0.9em;
+   color: #333333;
+}
+
+.inputfields input {
+	background-color: #d3d3d3;
+	border: none !important;
+	width: 100%;
+}
+
+input[type="text"]:focus {
+	color: #333333;
+}
+
+
+.usernameinput {
+	padding: 2% 2% 2% 2%;
+	font-size: 0.4em;
+	border-radius: 5px;
+	z-index: 50;
+}
+
+.passwordinput {
+	padding: 2% 2% 2% 2%;
+	font-size: 0.4em;
+	border-radius: 5px;
+}
+
+.confirmpasswordinput {
+	padding: 2% 2% 2% 2%;
+	font-size: 0.4em;
+	border-radius: 5px;
+}
+
+.submitbtn {
+	border: none;
+	background-color: #f06455;
+	font-size: 0.5em;
+	color: #fff;
+	border-radius: 5px;
+	padding: 4% 2% 4% 2%;
+	width: 104%;
+	box-shadow: 0 7px 0px 0px #d85a4c;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.5em;
+	
+}
+
+.submitbtn:hover {
+	cursor: pointer;
+}
+
+
